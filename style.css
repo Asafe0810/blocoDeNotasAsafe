@@ -43,6 +43,10 @@ p {
     resize: vertical; /* Permite que o usuário redimensione a altura */
 }
 
+#LimparNotas{
+    
+}
+
 #blocoDeNotas:focus {
     outline: none;
     border-color: #007bff;
