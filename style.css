@@ -79,6 +79,17 @@ p {
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  
 }
 
+#Resetar{
+    background-color: #3498db;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 15px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  
+}
+
 #blocoDeNotas:focus {
     outline: none;
     border-color: #007bff;

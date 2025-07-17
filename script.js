@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const blocoDeNotas = document.getElementById('blocoDeNotas');
     const SalvarNotas = document.getElementById('SalvarNotas');
     const Personalizar = document.getElementById('Personalizar');
+    const Resetar = document.getElementById('Resetar');
     const btnLimparNotas = document.getElementById('LimparNotas');
 
     SalvarNotas.addEventListener('click', () =>{
@@ -30,9 +31,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     Personalizar.addEventListener('click', () =>{
        document.getElementById('background').style.backgroundColor = '#000000';
+       
 
         console.log("Personalização Feita"); // Uma mensagem no console para fins de depuração.
     });
+
+    Resetar.addEventListener('click', () =>{
+        document.getElementById('background').style.backgroundColor = '';
+ 
+         console.log("Personalização Feita"); // Uma mensagem no console para fins de depuração.
+     });
 
 
     // 2. CARREGANDO DADOS DO LOCALSTORAGE
